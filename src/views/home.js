@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -10,7 +10,7 @@ import ServiceCard from '../components/service-card'
 import SecondaryButton from '../components/secondary-button'
 import Footer from '../components/footer'
 import projectStyles from '../style.module.css'
-import styles from './index.module.css'
+import styles from './home.module.css'
 
 const Home = (props) => {
   return (
