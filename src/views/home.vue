@@ -4,12 +4,9 @@
       <div class="home-navbar">
         <img
           alt="image"
-          src="https://cdn.discordapp.com/attachments/938769835763060766/945147220641067059/Ivans-Logo.png"
+          src="https://cdn.discordapp.com/attachments/858548231808745483/958763941318754374/Ivansweb.png"
           class="home-image"
         />
-        <div class="home-links-container">
-          <span class="home-link navbar-Link">Contact</span>
-        </div>
         <div data-type="BurgerMenu" class="home-burger-menu">
           <svg viewBox="0 0 1024 1024" class="home-icon">
             <path
@@ -28,10 +25,10 @@
               </svg>
             </div>
           </div>
-          <div class="home-links-container1">
-            <span class="home-link1 navbar-Link">About</span>
-            <span class="home-link2 navbar-Link">Experience</span>
-            <span class="home-link3 navbar-Link">Portofolio</span>
+          <div class="home-links-container">
+            <span class="home-link navbar-Link">About</span>
+            <span class="home-link1 navbar-Link">Experience</span>
+            <span class="home-link2 navbar-Link">Portofolio</span>
             <span class="navbar-Link">Contact</span>
           </div>
         </div>
@@ -46,9 +43,9 @@
           <span class="home-text section-Text">
             <span>
               My name is Ivan Ryan. I am a programmer, community server manager
-              and web designer
+              and static web designer
             </span>
-            <span><span v-html="rawssok"></span></span>
+            <span><span v-html="rawl4vs"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
@@ -149,7 +146,7 @@
               href="https://discord.gg/BFuuGcWbxZ"
               target="_blank"
               rel="noreferrer noopener"
-              class="home-link5"
+              class="home-link4"
             >
               <img
                 alt="image"
@@ -160,7 +157,7 @@
           </div>
         </div>
         <div class="home-copyright-container">
-          <span class="home-link6 anchor">Copyright, 2022</span>
+          <span class="home-link5 anchor">Copyright, 2022</span>
         </div>
       </div>
     </div>
@@ -173,7 +170,7 @@ export default {
 
   data() {
     return {
-      rawssok: ' ',
+      rawl4vs: ' ',
     }
   },
 
@@ -223,17 +220,9 @@ export default {
   background-color: #000000;
 }
 .home-image {
-  width: 150px;
+  width: 304px;
   height: 93px;
   object-fit: cover;
-}
-.home-links-container {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-}
-.home-link {
-  color: #ffffff;
 }
 .home-burger-menu {
   display: none;
@@ -275,18 +264,18 @@ export default {
   width: 24px;
   height: 24px;
 }
-.home-links-container1 {
+.home-links-container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+.home-link {
+  margin-bottom: var(--dl-space-space-unit);
 }
 .home-link1 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-link2 {
-  margin-bottom: var(--dl-space-space-unit);
-}
-.home-link3 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-section-separator {
@@ -600,7 +589,7 @@ export default {
   display: flex;
   position: relative;
 }
-.home-link5 {
+.home-link4 {
   display: contents;
 }
 .home-image3 {
@@ -614,7 +603,7 @@ export default {
   align-items: center;
   flex-direction: row;
 }
-.home-link6 {
+.home-link5 {
   color: #ffffff;
 }
 @media(max-width: 991px) {
@@ -644,9 +633,6 @@ export default {
 @media(max-width: 767px) {
   .home-navbar {
     position: relative;
-  }
-  .home-links-container {
-    display: none;
   }
   .home-burger-menu {
     display: flex;
