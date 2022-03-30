@@ -48,33 +48,38 @@
               My name is Ivan Ryan. I am a programmer, community server manager
               and web designer
             </span>
-            <span><span v-html="raw36i7"></span></span>
+            <span><span v-html="rawssok"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
-              <span class="home-text3">MY WORK</span>
+              <span class="home-text03">MY WORK</span>
             </button>
             <button class="home-cta-btn1 button anchor">ABOUT ME</button>
           </div>
         </div>
       </div>
+      <span class="home-text04">
+        <span>Website is being redesigned with VueJS</span>
+        <br />
+        <span></span>
+      </span>
     </div>
     <div class="home-features">
       <div class="home-heading-container">
-        <h2 class="home-text4 section-Heading">Services</h2>
+        <h2 class="home-text08 section-Heading">Services</h2>
       </div>
       <div class="home-cards-container">
         <div class="home-card">
           <div class="home-icon-container">
             <img
               alt="image"
-              src="/playground_assets/download%20%5B1%5D-200h.png"
+              src="/playground_assets/download%20%5B1%5D-600h.png"
               class="home-image1"
             />
           </div>
           <div class="home-content-container">
             <span class="home-heading2 card-Heading">Web Security</span>
-            <span class="home-text5 card-Text">
+            <span class="home-text09 card-Text">
               Detalied pentesting and privacy report for your website.
             </span>
           </div>
@@ -83,7 +88,7 @@
           <div class="home-icon-container1">
             <img
               alt="image"
-              src="/playground_assets/download%20%5B2%5D1-200h.png"
+              src="/playground_assets/download%20%5B2%5D1-600h.png"
               class="home-image2"
             />
           </div>
@@ -91,7 +96,7 @@
             <span class="home-heading3 card-Heading">
               Community Server Hosting
             </span>
-            <span class="home-text6 card-Text">
+            <span class="home-text10 card-Text">
               I provide powerful dedicated servers that come with a custom
               pterodactyl panel for your community.
             </span>
@@ -101,8 +106,8 @@
     </div>
     <div class="home-clients">
       <div class="home-heading-container1">
-        <h1 class="home-text7 section-Heading">Clients</h1>
-        <span class="home-text8 section-Text">
+        <h1 class="home-text11 section-Heading">Clients</h1>
+        <span class="home-text12 section-Text">
           Here we will put your clients&apos; or partners&apos; logos
         </span>
       </div>
@@ -139,10 +144,23 @@
       <div class="home-footer">
         <div class="home-container3">
           <div class="home-social-links"></div>
-          <app-component></app-component>
+          <div class="home-container4">
+            <a
+              href="https://discord.gg/BFuuGcWbxZ"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="home-link5"
+            >
+              <img
+                alt="image"
+                src="/playground_assets/download-200h.png"
+                class="home-image3"
+              />
+            </a>
+          </div>
         </div>
         <div class="home-copyright-container">
-          <span class="home-link5 anchor">Copyright, 2022</span>
+          <span class="home-link6 anchor">Copyright, 2022</span>
         </div>
       </div>
     </div>
@@ -150,17 +168,12 @@
 </template>
 
 <script>
-import AppComponent from '../components/component'
-
 export default {
   name: 'Home',
-  components: {
-    AppComponent,
-  },
 
   data() {
     return {
-      raw36i7: ' ',
+      rawssok: ' ',
     }
   },
 
@@ -199,7 +212,7 @@ export default {
 .home-navbar {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
+  max-width: 100%;
   align-items: center;
   padding-top: var(--dl-space-space-tripleunit);
   padding-left: var(--dl-space-space-tripleunit);
@@ -295,7 +308,7 @@ export default {
 }
 .home-container2 {
   width: 100%;
-  height: 388px;
+  height: 402px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -350,7 +363,7 @@ export default {
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: #c9c9c9;
 }
-.home-text3 {
+.home-text03 {
   color: #101010;
 }
 .home-cta-btn1 {
@@ -363,18 +376,21 @@ export default {
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-gray-white);
 }
+.home-text04 {
+  color: #ff0000;
+  font-size: 24px;
+}
 .home-features {
   width: 100%;
+  height: 513px;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
-  margin-top: var(--dl-space-space-fiveunits);
+  max-width: 100%;
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-tripleunit);
-  margin-bottom: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
+  padding-bottom: 43px;
   background-color: #000000;
 }
 .home-heading-container {
@@ -384,7 +400,7 @@ export default {
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text4 {
+.home-text08 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -394,11 +410,12 @@ export default {
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 .home-card {
-  width: 542px;
+  width: 474px;
   display: flex;
+  align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-doubleunit);
@@ -406,6 +423,7 @@ export default {
   padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: center;
 }
 .home-icon-container {
   width: 200px;
@@ -429,13 +447,14 @@ export default {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text5 {
+.home-text09 {
   color: #ffffff;
   text-align: center;
 }
 .home-card1 {
-  width: 600px;
+  width: 471px;
   display: flex;
+  align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-doubleunit);
   padding-left: var(--dl-space-space-doubleunit);
@@ -443,6 +462,7 @@ export default {
   padding-right: var(--dl-space-space-doubleunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: center;
 }
 .home-icon-container1 {
   width: 200px;
@@ -467,14 +487,14 @@ export default {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text6 {
+.home-text10 {
   color: #efe3e3;
   text-align: center;
 }
 .home-clients {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
+  max-width: 100%;
   align-items: center;
   padding-top: var(--dl-space-space-fiveunits);
   padding-left: var(--dl-space-space-tripleunit);
@@ -492,11 +512,11 @@ export default {
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
 }
-.home-text7 {
+.home-text11 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-fourunits);
 }
-.home-text8 {
+.home-text12 {
   color: #ffffff;
   text-align: center;
 }
@@ -552,7 +572,7 @@ export default {
 .home-footer {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxcontent);
+  max-width: 100%;
   align-items: center;
   padding-top: var(--dl-space-space-tripleunit);
   padding-left: var(--dl-space-space-tripleunit);
@@ -576,12 +596,25 @@ export default {
   align-items: flex-start;
   flex-direction: row;
 }
+.home-container4 {
+  display: flex;
+  position: relative;
+}
+.home-link5 {
+  display: contents;
+}
+.home-image3 {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  text-decoration: none;
+}
 .home-copyright-container {
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.home-link5 {
+.home-link6 {
   color: #ffffff;
 }
 @media(max-width: 991px) {
@@ -604,7 +637,7 @@ export default {
   .home-text {
     text-align: center;
   }
-  .home-text4 {
+  .home-text08 {
     text-align: center;
   }
 }
@@ -665,7 +698,7 @@ export default {
   .home-card1 {
     width: 100%;
   }
-  .home-text7 {
+  .home-text11 {
     text-align: center;
   }
 }
