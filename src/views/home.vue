@@ -53,7 +53,7 @@
               My name is Ivan Ryan. I am a programmer, community server manager
               and static web designer
             </span>
-            <span><span v-html="raw91gi"></span></span>
+            <span><span v-html="rawsmzk"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
@@ -137,7 +137,7 @@ export default {
 
   data() {
     return {
-      raw91gi: ' ',
+      rawsmzk: ' ',
     }
   },
 
@@ -433,7 +433,7 @@ export default {
   height: 453px;
   display: flex;
   align-items: center;
-  border-color: #ffffff;
+  border-color: #000000;
   border-style: dashed;
   border-width: 2px;
   flex-direction: column;
@@ -487,9 +487,11 @@ export default {
   flex-direction: column;
 }
 .home-social-links {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
+  border-color: #000000;
+  border-style: dashed;
+  border-width: 2px;
   flex-direction: row;
 }
 .home-container5 {
