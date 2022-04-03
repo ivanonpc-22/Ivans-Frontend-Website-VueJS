@@ -7,6 +7,14 @@
           src="https://cdn.discordapp.com/attachments/858548231808745483/958763941318754374/Ivansweb.png"
           class="home-image"
         />
+        <a
+          href="https://gamepanel.ivanryan.dev"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="home-button button"
+        >
+          <span class="home-text">Access Panel</span>
+        </a>
         <div data-type="BurgerMenu" class="home-burger-menu">
           <svg viewBox="0 0 1024 1024" class="home-icon">
             <path
@@ -40,22 +48,22 @@
       <div class="home-hero">
         <div class="home-hero-text-container">
           <h1 class="home-heading1 section-Heading">Welcome</h1>
-          <span class="home-text section-Text">
+          <span class="home-text01 section-Text">
             <span>
               My name is Ivan Ryan. I am a programmer, community server manager
               and static web designer
             </span>
-            <span><span v-html="rawl4vs"></span></span>
+            <span><span v-html="raw91gi"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
-              <span class="home-text03">MY WORK</span>
+              <span class="home-text04">MY WORK</span>
             </button>
             <button class="home-cta-btn1 button anchor">ABOUT ME</button>
           </div>
         </div>
       </div>
-      <span class="home-text04">
+      <span class="home-text05">
         <span>Website is being redesigned with VueJS</span>
         <br />
         <span></span>
@@ -63,85 +71,44 @@
     </div>
     <div class="home-features">
       <div class="home-heading-container">
-        <h2 class="home-text08 section-Heading">Services</h2>
+        <h2 class="home-text09 section-Heading">Services</h2>
       </div>
       <div class="home-cards-container">
         <div class="home-card">
           <div class="home-icon-container">
             <img
               alt="image"
-              src="/playground_assets/download%20%5B1%5D-600h.png"
+              src="/playground_assets/download%20%5B2%5D1-600h.png"
               class="home-image1"
             />
           </div>
           <div class="home-content-container">
-            <span class="home-heading2 card-Heading">Web Security</span>
-            <span class="home-text09 card-Text">
-              Detalied pentesting and privacy report for your website.
-            </span>
-          </div>
-        </div>
-        <div class="home-card1">
-          <div class="home-icon-container1">
-            <img
-              alt="image"
-              src="/playground_assets/download%20%5B2%5D1-600h.png"
-              class="home-image2"
-            />
-          </div>
-          <div class="home-content-container1">
-            <span class="home-heading3 card-Heading">
+            <span class="home-heading2 card-Heading">
               Community Server Hosting
             </span>
             <span class="home-text10 card-Text">
-              I provide powerful dedicated servers that come with a custom
-              pterodactyl panel for your community.
+              I provide powerful dedicated servers with a custom pterodactyl panel
+              for your community.
             </span>
           </div>
         </div>
       </div>
     </div>
-    <div class="home-clients">
-      <div class="home-heading-container1">
-        <h1 class="home-text11 section-Heading">Clients</h1>
-        <span class="home-text12 section-Text">
-          Here we will put your clients&apos; or partners&apos; logos
-        </span>
-      </div>
-      <div class="home-logo-container">
-        <img
-          alt="image"
-          src="/playground_assets/default-img.svg"
-          class="home-logo"
-        />
-        <img
-          alt="image"
-          src="/playground_assets/default-img.svg"
-          class="home-logo1"
-        />
-        <img
-          alt="image"
-          src="/playground_assets/default-img.svg"
-          class="home-logo2"
-        />
-        <img
-          alt="image"
-          src="/playground_assets/default-img.svg"
-          class="home-logo3"
-        />
-        <img
-          alt="image"
-          src="/playground_assets/default-img.svg"
-          class="home-logo4"
-        />
-      </div>
-    </div>
     <div class="home-section-separator2"></div>
+    <div class="home-container3">
+      <h1 class="home-text11">Custom Pterodactyl Panel</h1>
+      <div class="home-section-separator3"></div>
+      <img
+        src="/playground_assets/ezgif.com-gif-maker-400h.gif"
+        alt="image"
+        class="home-image2"
+      />
+    </div>
     <div class="home-footer-container">
       <div class="home-footer">
-        <div class="home-container3">
+        <div class="home-container4">
           <div class="home-social-links"></div>
-          <div class="home-container4">
+          <div class="home-container5">
             <a
               href="https://discord.gg/BFuuGcWbxZ"
               target="_blank"
@@ -170,7 +137,7 @@ export default {
 
   data() {
     return {
-      rawl4vs: ' ',
+      raw91gi: ' ',
     }
   },
 
@@ -223,6 +190,15 @@ export default {
   width: 304px;
   height: 93px;
   object-fit: cover;
+}
+.home-button {
+  color: var(--dl-color-gray-900);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-500);
+}
+.home-text {
+  font-style: normal;
+  font-weight: 700;
 }
 .home-burger-menu {
   display: none;
@@ -331,9 +307,12 @@ export default {
   height: 45px;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text {
+.home-text01 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-fiveunits);
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
 }
 .home-cta-btn-container {
   display: flex;
@@ -352,7 +331,7 @@ export default {
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: #c9c9c9;
 }
-.home-text03 {
+.home-text04 {
   color: #101010;
 }
 .home-cta-btn1 {
@@ -365,7 +344,7 @@ export default {
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-gray-white);
 }
-.home-text04 {
+.home-text05 {
   color: #ff0000;
   font-size: 24px;
 }
@@ -389,7 +368,7 @@ export default {
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text08 {
+.home-text09 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -402,7 +381,7 @@ export default {
   justify-content: center;
 }
 .home-card {
-  width: 474px;
+  width: 471px;
   display: flex;
   align-self: center;
   align-items: center;
@@ -422,6 +401,7 @@ export default {
   border-radius: var(--dl-radius-radius-round);
   margin-bottom: var(--dl-space-space-tripleunit);
   flex-direction: column;
+  justify-content: center;
 }
 .home-image1 {
   width: 100px;
@@ -436,111 +416,9 @@ export default {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text09 {
-  color: #ffffff;
-  text-align: center;
-}
-.home-card1 {
-  width: 471px;
-  display: flex;
-  align-self: center;
-  align-items: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  justify-content: center;
-}
-.home-icon-container1 {
-  width: 200px;
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  align-items: center;
-  border-radius: var(--dl-radius-radius-round);
-  margin-bottom: var(--dl-space-space-tripleunit);
-  flex-direction: column;
-  justify-content: center;
-}
-.home-image2 {
-  width: 100px;
-  object-fit: cover;
-}
-.home-content-container1 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.home-heading3 {
-  color: #ffffff;
-  margin-bottom: var(--dl-space-space-tripleunit);
-}
 .home-text10 {
   color: #efe3e3;
   text-align: center;
-}
-.home-clients {
-  width: 100%;
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  padding-top: var(--dl-space-space-fiveunits);
-  padding-left: var(--dl-space-space-tripleunit);
-  padding-right: var(--dl-space-space-tripleunit);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
-  background-color: #000000;
-}
-.home-heading-container1 {
-  width: 45%;
-  display: flex;
-  align-items: center;
-  padding-left: var(--dl-space-space-tripleunit);
-  margin-bottom: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-tripleunit);
-  flex-direction: column;
-}
-.home-text11 {
-  color: #ffffff;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-text12 {
-  color: #ffffff;
-  text-align: center;
-}
-.home-logo-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.home-logo {
-  width: 150px;
-  object-fit: cover;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-logo1 {
-  width: 150px;
-  object-fit: cover;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-logo2 {
-  width: 150px;
-  object-fit: cover;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-logo3 {
-  width: 150px;
-  object-fit: cover;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-logo4 {
-  width: 150px;
-  object-fit: cover;
-  margin-bottom: var(--dl-space-space-fourunits);
 }
 .home-section-separator2 {
   width: 100%;
@@ -549,6 +427,35 @@ export default {
   align-items: flex-start;
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
+}
+.home-container3 {
+  width: 100%;
+  height: 453px;
+  display: flex;
+  align-items: center;
+  border-color: #ffffff;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+}
+.home-text11 {
+  color: #e4dfdf;
+  height: 44px;
+}
+.home-section-separator3 {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #fffefe;
+}
+.home-image2 {
+  width: 647px;
+  height: 337px;
+  object-fit: cover;
 }
 .home-footer-container {
   width: 100%;
@@ -571,7 +478,7 @@ export default {
   justify-content: space-between;
   background-color: #000000;
 }
-.home-container3 {
+.home-container4 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -585,7 +492,7 @@ export default {
   align-items: flex-start;
   flex-direction: row;
 }
-.home-container4 {
+.home-container5 {
   display: flex;
   position: relative;
 }
@@ -623,10 +530,10 @@ export default {
   .home-heading1 {
     text-align: center;
   }
-  .home-text {
+  .home-text01 {
     text-align: center;
   }
-  .home-text08 {
+  .home-text09 {
     text-align: center;
   }
 }
@@ -663,13 +570,6 @@ export default {
     width: 70%;
     margin-bottom: var(--dl-space-space-tripleunit);
   }
-  .home-card1 {
-    width: 70%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
-  .home-heading-container1 {
-    width: 100%;
-  }
 }
 @media(max-width: 479px) {
   .home-burger-menu {
@@ -680,12 +580,6 @@ export default {
   }
   .home-card {
     width: 100%;
-  }
-  .home-card1 {
-    width: 100%;
-  }
-  .home-text11 {
-    text-align: center;
   }
 }
 </style>
