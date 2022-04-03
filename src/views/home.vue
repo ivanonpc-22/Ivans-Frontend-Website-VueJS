@@ -53,7 +53,7 @@
               My name is Ivan Ryan. I am a programmer, community server manager
               and static web designer
             </span>
-            <span><span v-html="rawsmzk"></span></span>
+            <span><span v-html="raw7jcz"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
@@ -97,9 +97,8 @@
     <div class="home-section-separator2"></div>
     <div class="home-container3">
       <h1 class="home-text11">Custom Pterodactyl Panel</h1>
-      <div class="home-section-separator3"></div>
       <img
-        src="/playground_assets/ezgif.com-gif-maker-400h.gif"
+        src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
         alt="image"
         class="home-image2"
       />
@@ -137,7 +136,7 @@ export default {
 
   data() {
     return {
-      rawsmzk: ' ',
+      raw7jcz: ' ',
     }
   },
 
@@ -430,7 +429,7 @@ export default {
 }
 .home-container3 {
   width: 100%;
-  height: 453px;
+  height: 728px;
   display: flex;
   align-items: center;
   border-color: #000000;
@@ -442,19 +441,11 @@ export default {
 }
 .home-text11 {
   color: #e4dfdf;
-  height: 44px;
-}
-.home-section-separator3 {
-  width: 100%;
-  height: 1px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: #fffefe;
+  height: 73px;
 }
 .home-image2 {
-  width: 647px;
-  height: 337px;
+  width: 613px;
+  height: 442px;
   object-fit: cover;
 }
 .home-footer-container {
