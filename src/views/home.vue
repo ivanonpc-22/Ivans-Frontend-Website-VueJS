@@ -53,7 +53,7 @@
               My name is Ivan Ryan. I am a programmer, community server manager
               and static web designer
             </span>
-            <span><span v-html="raw7jcz"></span></span>
+            <span><span v-html="raw9q2b"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
@@ -63,15 +63,10 @@
           </div>
         </div>
       </div>
-      <span class="home-text05">
-        <span>Website is being redesigned with VueJS</span>
-        <br />
-        <span></span>
-      </span>
     </div>
     <div class="home-features">
       <div class="home-heading-container">
-        <h2 class="home-text09 section-Heading">Services</h2>
+        <h2 class="home-text05 section-Heading">Services</h2>
       </div>
       <div class="home-cards-container">
         <div class="home-card">
@@ -86,7 +81,7 @@
             <span class="home-heading2 card-Heading">
               Community Server Hosting
             </span>
-            <span class="home-text10 card-Text">
+            <span class="home-text06 card-Text">
               I provide powerful dedicated servers with a custom pterodactyl panel
               for your community.
             </span>
@@ -96,18 +91,38 @@
     </div>
     <div class="home-section-separator2"></div>
     <div class="home-container3">
-      <h1 class="home-text11">Custom Pterodactyl Panel</h1>
+      <h1 class="home-text07">Custom Pterodactyl Panel</h1>
       <img
-        src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
         alt="image"
+        src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
+        loading="lazy"
         class="home-image2"
       />
+      <div class="home-container4">
+        <img
+          src="https://cdn.discordapp.com/attachments/938769835763060766/960088253757808650/IvansPanel1_2.PNG"
+          alt="image"
+          loading="lazy"
+          class="home-image3"
+        />
+      </div>
+      <a
+        href="https://gamepanel.ivanryan.dev"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="home-button1 button"
+      >
+        <span class="home-text08">
+          <span class="home-text09">Access Panel</span>
+          <span class="home-text10"></span>
+        </span>
+      </a>
     </div>
     <div class="home-footer-container">
       <div class="home-footer">
-        <div class="home-container4">
+        <div class="home-container5">
           <div class="home-social-links"></div>
-          <div class="home-container5">
+          <div class="home-container6">
             <a
               href="https://discord.gg/BFuuGcWbxZ"
               target="_blank"
@@ -117,7 +132,7 @@
               <img
                 alt="image"
                 src="/playground_assets/download-200h.png"
-                class="home-image3"
+                class="home-image4"
               />
             </a>
           </div>
@@ -136,7 +151,7 @@ export default {
 
   data() {
     return {
-      raw7jcz: ' ',
+      raw9q2b: ' ',
     }
   },
 
@@ -343,10 +358,6 @@ export default {
   padding-bottom: var(--dl-space-space-doubleunit);
   background-color: var(--dl-color-gray-white);
 }
-.home-text05 {
-  color: #ff0000;
-  font-size: 24px;
-}
 .home-features {
   width: 100%;
   height: 513px;
@@ -367,7 +378,7 @@ export default {
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text09 {
+.home-text05 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -415,8 +426,8 @@ export default {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text10 {
-  color: #efe3e3;
+.home-text06 {
+  color: #f3f3f3;
   text-align: center;
 }
 .home-section-separator2 {
@@ -429,7 +440,7 @@ export default {
 }
 .home-container3 {
   width: 100%;
-  height: 728px;
+  height: 1343px;
   display: flex;
   align-items: center;
   border-color: #000000;
@@ -439,14 +450,53 @@ export default {
   justify-content: center;
   background-color: #000000;
 }
-.home-text11 {
-  color: #e4dfdf;
+.home-text07 {
+  color: #f9f9f9;
   height: 73px;
 }
 .home-image2 {
-  width: 613px;
-  height: 442px;
+  width: 746px;
+  height: 519px;
   object-fit: cover;
+}
+.home-container4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-image3 {
+  width: 100%;
+  height: 497px;
+  object-fit: cover;
+}
+.home-button1 {
+  color: var(--dl-color-gray-900);
+  width: 182px;
+  height: 50px;
+  align-self: center;
+  margin-top: 60px;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-right: 0px;
+  text-decoration: none;
+  background-color: var(--dl-color-primary-500);
+}
+.home-text08 {
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 700;
+}
+.home-text09 {
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text10 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
 }
 .home-footer-container {
   width: 100%;
@@ -469,7 +519,7 @@ export default {
   justify-content: space-between;
   background-color: #000000;
 }
-.home-container4 {
+.home-container5 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -485,14 +535,14 @@ export default {
   border-width: 2px;
   flex-direction: row;
 }
-.home-container5 {
+.home-container6 {
   display: flex;
   position: relative;
 }
 .home-link4 {
   display: contents;
 }
-.home-image3 {
+.home-image4 {
   width: 40px;
   height: 40px;
   object-fit: cover;
@@ -526,7 +576,7 @@ export default {
   .home-text01 {
     text-align: center;
   }
-  .home-text09 {
+  .home-text05 {
     text-align: center;
   }
 }
