@@ -53,7 +53,7 @@
               My name is Ivan Ryan. I am a programmer, community server manager
               and static web designer
             </span>
-            <span><span v-html="raw9q2b"></span></span>
+            <span><span v-html="rawlk9y"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
@@ -82,8 +82,14 @@
               Community Server Hosting
             </span>
             <span class="home-text06 card-Text">
-              I provide powerful dedicated servers with a custom pterodactyl panel
-              for your community.
+              <span>
+                I provide powerful dedicated servers with a custom pterodactyl
+                panel for your community.
+              </span>
+              <br />
+              <span></span>
+              <br />
+              <span class="home-text11">Join my discord for more info</span>
             </span>
           </div>
         </div>
@@ -91,7 +97,7 @@
     </div>
     <div class="home-section-separator2"></div>
     <div class="home-container3">
-      <h1 class="home-text07">Custom Pterodactyl Panel</h1>
+      <h1 class="home-text12">Custom Pterodactyl Panel</h1>
       <img
         alt="image"
         src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
@@ -112,9 +118,9 @@
         rel="noreferrer noopener"
         class="home-button1 button"
       >
-        <span class="home-text08">
-          <span class="home-text09">Access Panel</span>
-          <span class="home-text10"></span>
+        <span class="home-text13">
+          <span class="home-text14">Access Panel</span>
+          <span class="home-text15"></span>
         </span>
       </a>
     </div>
@@ -137,6 +143,7 @@
             </a>
           </div>
         </div>
+        <span class="home-text16">Powered on VueJS</span>
         <div class="home-copyright-container">
           <span class="home-link5 anchor">Copyright, 2022</span>
         </div>
@@ -151,7 +158,7 @@ export default {
 
   data() {
     return {
-      raw9q2b: ' ',
+      rawlk9y: ' ',
     }
   },
 
@@ -430,6 +437,9 @@ export default {
   color: #f3f3f3;
   text-align: center;
 }
+.home-text11 {
+  color: #00ff29;
+}
 .home-section-separator2 {
   width: 100%;
   height: 1px;
@@ -450,7 +460,7 @@ export default {
   justify-content: center;
   background-color: #000000;
 }
-.home-text07 {
+.home-text12 {
   color: #f9f9f9;
   height: 73px;
 }
@@ -483,17 +493,18 @@ export default {
   text-decoration: none;
   background-color: var(--dl-color-primary-500);
 }
-.home-text08 {
+.home-text13 {
+  color: #ffffff;
   font-size: 24px;
   font-style: normal;
   text-align: left;
   font-weight: 700;
 }
-.home-text09 {
+.home-text14 {
   font-style: normal;
   font-weight: 700;
 }
-.home-text10 {
+.home-text15 {
   font-style: normal;
   text-align: center;
   font-weight: 700;
@@ -509,6 +520,7 @@ export default {
 .home-footer {
   width: 100%;
   display: flex;
+  position: relative;
   max-width: 100%;
   align-items: center;
   padding-top: var(--dl-space-space-tripleunit);
@@ -547,6 +559,14 @@ export default {
   height: 40px;
   object-fit: cover;
   text-decoration: none;
+}
+.home-text16 {
+  color: #ffffff;
+  right: 533px;
+  bottom: 34px;
+  position: absolute;
+  align-self: center;
+  text-align: center;
 }
 .home-copyright-container {
   display: flex;
@@ -615,6 +635,10 @@ export default {
   }
 }
 @media(max-width: 479px) {
+  .home-button {
+    width: 116px;
+    height: 61px;
+  }
   .home-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
@@ -623,6 +647,14 @@ export default {
   }
   .home-card {
     width: 100%;
+  }
+  .home-image2 {
+    width: 100%;
+    height: 364px;
+  }
+  .home-image3 {
+    width: 478px;
+    height: 213px;
   }
 }
 </style>
