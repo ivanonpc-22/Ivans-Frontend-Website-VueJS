@@ -50,10 +50,10 @@
           <h1 class="home-heading1 section-Heading">Welcome</h1>
           <span class="home-text01 section-Text">
             <span>
-              My name is Ivan Ryan. I am a programmer, community server manager
-              and static web designer
+              My name is Ivan Ryan. I am a programmer, server hosting provider and
+              static web designer
             </span>
-            <span><span v-html="rawgdxs"></span></span>
+            <span><span v-html="rawauhq"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
@@ -79,7 +79,7 @@
           </div>
           <div class="home-content-container">
             <span class="home-heading2 card-Heading">
-              Owner of Voltaic Servers
+              Owner of Voltaic Hosting
             </span>
             <span class="home-text06 card-Text">
               <span>
@@ -89,16 +89,31 @@
               <br />
               <span></span>
               <br />
-              <span class="home-text11">Website</span>
+              <span>voltaichosting.com</span>
               <br />
               <span></span>
               <br />
-              <span class="home-text15">Join my discord for more info</span>
-              <br />
-              <span></span>
             </span>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="home-section-separator2"></div>
+    <div class="home-container3">
+      <h1 class="home-text15">Custom Pterodactyl Panel Setup</h1>
+      <img
+        alt="image"
+        src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
+        loading="lazy"
+        class="home-image2"
+      />
+      <div class="home-container4">
+        <img
+          alt="image"
+          src="https://cdn.discordapp.com/attachments/938769835763060766/960088253757808650/IvansPanel1_2.PNG"
+          loading="lazy"
+          class="home-image3"
+        />
       </div>
       <a
         href="https://discord.gg/BFuuGcWbxZ"
@@ -109,27 +124,9 @@
         <img
           alt="image"
           src="/playground_assets/download-200h.png"
-          class="home-image2"
-        />
-      </a>
-    </div>
-    <div class="home-section-separator2"></div>
-    <div class="home-container3">
-      <h1 class="home-text18">Custom Pterodactyl Panel Setup</h1>
-      <img
-        alt="image"
-        src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
-        loading="lazy"
-        class="home-image3"
-      />
-      <div class="home-container4">
-        <img
-          alt="image"
-          src="https://cdn.discordapp.com/attachments/938769835763060766/960088253757808650/IvansPanel1_2.PNG"
-          loading="lazy"
           class="home-image4"
         />
-      </div>
+      </a>
     </div>
     <div class="home-footer-container">
       <div class="home-footer">
@@ -150,7 +147,7 @@
             </a>
           </div>
         </div>
-        <span class="home-text19">Powered on VueJS</span>
+        <span class="home-text16">Powered on VueJS</span>
         <div class="home-copyright-container">
           <span class="home-link6 anchor">Copyright, 2022</span>
         </div>
@@ -165,7 +162,7 @@ export default {
 
   data() {
     return {
-      rawgdxs: ' ',
+      rawauhq: ' ',
     }
   },
 
@@ -225,6 +222,7 @@ export default {
   background-color: var(--dl-color-primary-500);
 }
 .home-text {
+  color: #ffffff;
   font-style: normal;
   font-weight: 700;
 }
@@ -442,23 +440,8 @@ export default {
   margin-bottom: var(--dl-space-space-tripleunit);
 }
 .home-text06 {
-  color: #f3f3f3;
+  color: #ffffff;
   text-align: center;
-}
-.home-text11 {
-  color: #0059ff;
-}
-.home-text15 {
-  color: #00ff29;
-}
-.home-link4 {
-  display: contents;
-}
-.home-image2 {
-  width: 73px;
-  height: 71px;
-  object-fit: cover;
-  text-decoration: none;
 }
 .home-section-separator2 {
   width: 100%;
@@ -480,11 +463,11 @@ export default {
   justify-content: center;
   background-color: #000000;
 }
-.home-text18 {
+.home-text15 {
   color: #f9f9f9;
   height: 73px;
 }
-.home-image3 {
+.home-image2 {
   width: 746px;
   height: 519px;
   object-fit: cover;
@@ -497,10 +480,19 @@ export default {
   align-items: flex-start;
   justify-content: center;
 }
-.home-image4 {
+.home-image3 {
   width: 100%;
   height: 497px;
   object-fit: cover;
+}
+.home-link4 {
+  display: contents;
+}
+.home-image4 {
+  width: 73px;
+  height: 73px;
+  object-fit: cover;
+  text-decoration: none;
 }
 .home-footer-container {
   width: 100%;
@@ -553,7 +545,7 @@ export default {
   object-fit: cover;
   text-decoration: none;
 }
-.home-text19 {
+.home-text16 {
   color: #ffffff;
   align-self: center;
   text-align: center;
@@ -638,11 +630,11 @@ export default {
   .home-card {
     width: 100%;
   }
-  .home-image3 {
+  .home-image2 {
     width: 100%;
     height: 364px;
   }
-  .home-image4 {
+  .home-image3 {
     width: 478px;
     height: 213px;
   }
