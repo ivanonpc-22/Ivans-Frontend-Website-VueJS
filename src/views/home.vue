@@ -53,7 +53,7 @@
               My name is Ivan Ryan. I am a programmer, community server manager
               and static web designer
             </span>
-            <span><span v-html="rawlk9y"></span></span>
+            <span><span v-html="rawgdxs"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
@@ -73,56 +73,63 @@
           <div class="home-icon-container">
             <img
               alt="image"
-              src="/playground_assets/download%20%5B2%5D1-600h.png"
+              src="https://cdn.discordapp.com/attachments/938769835763060766/961032489068023868/logo_basic-file.png"
               class="home-image1"
             />
           </div>
           <div class="home-content-container">
             <span class="home-heading2 card-Heading">
-              Community Server Hosting
+              Owner of Voltaic Servers
             </span>
             <span class="home-text06 card-Text">
               <span>
                 I provide powerful dedicated servers with a custom pterodactyl
-                panel for your community.
+                panel.
               </span>
               <br />
               <span></span>
               <br />
-              <span class="home-text11">Join my discord for more info</span>
+              <span class="home-text11">Website</span>
+              <br />
+              <span></span>
+              <br />
+              <span class="home-text15">Join my discord for more info</span>
+              <br />
+              <span></span>
             </span>
           </div>
         </div>
       </div>
+      <a
+        href="https://discord.gg/BFuuGcWbxZ"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="home-link4"
+      >
+        <img
+          alt="image"
+          src="/playground_assets/download-200h.png"
+          class="home-image2"
+        />
+      </a>
     </div>
     <div class="home-section-separator2"></div>
     <div class="home-container3">
-      <h1 class="home-text12">Custom Pterodactyl Panel</h1>
+      <h1 class="home-text18">Custom Pterodactyl Panel Setup</h1>
       <img
         alt="image"
         src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
         loading="lazy"
-        class="home-image2"
+        class="home-image3"
       />
       <div class="home-container4">
         <img
-          src="https://cdn.discordapp.com/attachments/938769835763060766/960088253757808650/IvansPanel1_2.PNG"
           alt="image"
+          src="https://cdn.discordapp.com/attachments/938769835763060766/960088253757808650/IvansPanel1_2.PNG"
           loading="lazy"
-          class="home-image3"
+          class="home-image4"
         />
       </div>
-      <a
-        href="https://gamepanel.ivanryan.dev"
-        target="_blank"
-        rel="noreferrer noopener"
-        class="home-button1 button"
-      >
-        <span class="home-text13">
-          <span class="home-text14">Access Panel</span>
-          <span class="home-text15"></span>
-        </span>
-      </a>
     </div>
     <div class="home-footer-container">
       <div class="home-footer">
@@ -133,19 +140,19 @@
               href="https://discord.gg/BFuuGcWbxZ"
               target="_blank"
               rel="noreferrer noopener"
-              class="home-link4"
+              class="home-link5"
             >
               <img
                 alt="image"
                 src="/playground_assets/download-200h.png"
-                class="home-image4"
+                class="home-image5"
               />
             </a>
           </div>
         </div>
-        <span class="home-text16">Powered on VueJS</span>
+        <span class="home-text19">Powered on VueJS</span>
         <div class="home-copyright-container">
-          <span class="home-link5 anchor">Copyright, 2022</span>
+          <span class="home-link6 anchor">Copyright, 2022</span>
         </div>
       </div>
     </div>
@@ -158,7 +165,7 @@ export default {
 
   data() {
     return {
-      rawlk9y: ' ',
+      rawgdxs: ' ',
     }
   },
 
@@ -367,7 +374,7 @@ export default {
 }
 .home-features {
   width: 100%;
-  height: 513px;
+  height: 636px;
   display: flex;
   max-width: 100%;
   align-items: center;
@@ -391,6 +398,7 @@ export default {
 }
 .home-cards-container {
   width: 100%;
+  height: 340px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -438,7 +446,19 @@ export default {
   text-align: center;
 }
 .home-text11 {
+  color: #0059ff;
+}
+.home-text15 {
   color: #00ff29;
+}
+.home-link4 {
+  display: contents;
+}
+.home-image2 {
+  width: 73px;
+  height: 71px;
+  object-fit: cover;
+  text-decoration: none;
 }
 .home-section-separator2 {
   width: 100%;
@@ -460,11 +480,11 @@ export default {
   justify-content: center;
   background-color: #000000;
 }
-.home-text12 {
+.home-text18 {
   color: #f9f9f9;
   height: 73px;
 }
-.home-image2 {
+.home-image3 {
   width: 746px;
   height: 519px;
   object-fit: cover;
@@ -477,37 +497,10 @@ export default {
   align-items: flex-start;
   justify-content: center;
 }
-.home-image3 {
+.home-image4 {
   width: 100%;
   height: 497px;
   object-fit: cover;
-}
-.home-button1 {
-  color: var(--dl-color-gray-900);
-  width: 182px;
-  height: 50px;
-  align-self: center;
-  margin-top: 60px;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-right: 0px;
-  text-decoration: none;
-  background-color: var(--dl-color-primary-500);
-}
-.home-text13 {
-  color: #ffffff;
-  font-size: 24px;
-  font-style: normal;
-  text-align: left;
-  font-weight: 700;
-}
-.home-text14 {
-  font-style: normal;
-  font-weight: 700;
-}
-.home-text15 {
-  font-style: normal;
-  text-align: center;
-  font-weight: 700;
 }
 .home-footer-container {
   width: 100%;
@@ -551,20 +544,17 @@ export default {
   display: flex;
   position: relative;
 }
-.home-link4 {
+.home-link5 {
   display: contents;
 }
-.home-image4 {
+.home-image5 {
   width: 40px;
   height: 40px;
   object-fit: cover;
   text-decoration: none;
 }
-.home-text16 {
+.home-text19 {
   color: #ffffff;
-  right: 533px;
-  bottom: 34px;
-  position: absolute;
   align-self: center;
   text-align: center;
 }
@@ -573,7 +563,7 @@ export default {
   align-items: center;
   flex-direction: row;
 }
-.home-link5 {
+.home-link6 {
   color: #ffffff;
 }
 @media(max-width: 991px) {
@@ -648,11 +638,11 @@ export default {
   .home-card {
     width: 100%;
   }
-  .home-image2 {
+  .home-image3 {
     width: 100%;
     height: 364px;
   }
-  .home-image3 {
+  .home-image4 {
     width: 478px;
     height: 213px;
   }
