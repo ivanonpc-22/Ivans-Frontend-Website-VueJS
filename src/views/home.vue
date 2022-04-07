@@ -7,14 +7,6 @@
           src="https://cdn.discordapp.com/attachments/858548231808745483/958763941318754374/Ivansweb.png"
           class="home-image"
         />
-        <a
-          href="https://gamepanel.ivanryan.dev"
-          target="_blank"
-          rel="noreferrer noopener"
-          class="home-button button"
-        >
-          <span class="home-text">Access Panel</span>
-        </a>
         <div data-type="BurgerMenu" class="home-burger-menu">
           <svg viewBox="0 0 1024 1024" class="home-icon">
             <path
@@ -47,109 +39,69 @@
     <div class="home-container2">
       <div class="home-hero">
         <div class="home-hero-text-container">
-          <h1 class="home-heading1 section-Heading">Welcome</h1>
-          <span class="home-text01 section-Text">
+          <h1 class="home-heading1 section-Heading">Hello World!</h1>
+          <span class="home-text">
             <span>
-              My name is Ivan Ryan. I am a programmer, server hosting provider and
-              static web designer
+              My name is Ivan Ryan. I am a programmer, hosting provider and static
+              web designer
             </span>
-            <span><span v-html="rawfady"></span></span>
+            <span><span v-html="rawdcne"></span></span>
           </span>
           <div class="home-cta-btn-container">
-            <button class="home-cta-btn anchor button">
-              <span class="home-text04">MY WORK</span>
-            </button>
-            <button class="home-cta-btn1 button anchor">ABOUT ME</button>
+            <div class="home-container3"></div>
           </div>
         </div>
       </div>
     </div>
     <div class="home-features">
       <div class="home-heading-container">
-        <h2 class="home-text05 section-Heading">Services</h2>
+        <h2 class="home-text3 section-Heading">Services</h2>
       </div>
       <div class="home-cards-container">
-        <div class="home-card">
-          <div class="home-icon-container">
-            <img
-              alt="image"
-              src="https://cdn.discordapp.com/attachments/938769835763060766/961032489068023868/logo_basic-file.png"
-              class="home-image1"
-            />
-          </div>
-          <div class="home-content-container">
-            <span class="home-heading2 card-Heading">
-              Owner of Voltaic Hosting
-            </span>
-            <span class="home-text06 card-Text">
-              <span>
-                I provide powerful dedicated servers with a custom pterodactyl
-                panel.
-              </span>
-              <br />
-              <span></span>
-              <br />
-              <span>voltaichosting.com</span>
-              <br />
-              <span></span>
-              <br />
-            </span>
-          </div>
-        </div>
+        <h1 class="home-text4">Community Server Hosting</h1>
+        <span class="home-text5">High Performance Hardware</span>
       </div>
     </div>
     <div class="home-section-separator2"></div>
-    <div class="home-container3">
-      <h1 class="home-text15">Custom Pterodactyl Panel Setup</h1>
+    <div class="home-container4">
+      <h1 class="home-text6">Custom Pterodactyl Panel Setup</h1>
       <img
         alt="image"
         src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
         loading="lazy"
-        class="home-image2"
+        class="home-image1"
       />
-      <div class="home-container4">
+      <div class="home-container5">
         <img
           alt="image"
           src="https://cdn.discordapp.com/attachments/938769835763060766/960088253757808650/IvansPanel1_2.PNG"
           loading="lazy"
-          class="home-image3"
+          class="home-image2"
         />
       </div>
-      <a
-        href="https://discord.gg/BFuuGcWbxZ"
-        target="_blank"
-        rel="noreferrer noopener"
-        class="home-link4"
-      >
-        <img
-          alt="image"
-          src="/playground_assets/download-200h.png"
-          class="home-image4"
-        />
-      </a>
     </div>
     <div class="home-footer-container">
       <div class="home-footer">
-        <div class="home-container5">
+        <div class="home-container6">
           <div class="home-social-links"></div>
-          <div class="home-container6">
+          <div class="home-container7">
             <a
               href="https://discord.gg/BFuuGcWbxZ"
               target="_blank"
               rel="noreferrer noopener"
-              class="home-link5"
+              class="home-link4"
             >
               <img
                 alt="image"
                 src="/playground_assets/download-200h.png"
-                class="home-image5"
+                class="home-image3"
               />
             </a>
           </div>
         </div>
-        <span class="home-text16">Powered on VueJS</span>
+        <span class="home-text7">Powered on VueJS</span>
         <div class="home-copyright-container">
-          <span class="home-link6 anchor">Copyright, 2022</span>
+          <span class="home-link5 anchor">Copyright, 2022</span>
         </div>
       </div>
     </div>
@@ -162,7 +114,7 @@ export default {
 
   data() {
     return {
-      rawfady: ' ',
+      rawdcne: ' ',
     }
   },
 
@@ -215,16 +167,6 @@ export default {
   width: 304px;
   height: 93px;
   object-fit: cover;
-}
-.home-button {
-  color: var(--dl-color-gray-900);
-  text-decoration: none;
-  background-color: var(--dl-color-primary-500);
-}
-.home-text {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 700;
 }
 .home-burger-menu {
   display: none;
@@ -333,10 +275,17 @@ export default {
   height: 45px;
   margin-bottom: var(--dl-space-space-tripleunit);
 }
-.home-text01 {
+.home-text {
   color: #ffffff;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: 600;
+  line-height: 1.55;
   margin-bottom: var(--dl-space-space-fiveunits);
+  letter-spacing: 2;
+  text-transform: none;
   list-style-type: disc;
+  text-decoration: none;
   list-style-image: none;
   list-style-position: outside;
 }
@@ -346,29 +295,12 @@ export default {
   flex-direction: row;
   justify-content: flex-start;
 }
-.home-cta-btn {
-  color: var(--dl-color-gray-white);
-  text-align: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  margin-right: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-tenunits);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: #c9c9c9;
-}
-.home-text04 {
-  color: #101010;
-}
-.home-cta-btn1 {
-  color: var(--dl-color-gray-black);
-  text-align: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-tenunits);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-color: var(--dl-color-gray-white);
+.home-container3 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 .home-features {
   width: 100%;
@@ -390,7 +322,7 @@ export default {
   margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.home-text05 {
+.home-text3 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-fourunits);
 }
@@ -399,49 +331,19 @@ export default {
   height: 340px;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
-}
-.home-card {
-  width: 471px;
-  display: flex;
-  align-self: center;
-  align-items: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
-  margin-bottom: var(--dl-space-space-fourunits);
-  padding-right: var(--dl-space-space-doubleunit);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  justify-content: center;
-}
-.home-icon-container {
-  width: 200px;
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  align-items: center;
-  border-radius: var(--dl-radius-radius-round);
-  margin-bottom: var(--dl-space-space-tripleunit);
-  flex-direction: column;
-  justify-content: center;
-}
-.home-image1 {
-  width: 100px;
-  object-fit: cover;
-}
-.home-content-container {
-  display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
 }
-.home-heading2 {
+.home-text4 {
+  color: #f9f9f9;
+  height: 73px;
+}
+.home-text5 {
   color: #ffffff;
-  margin-bottom: var(--dl-space-space-tripleunit);
-}
-.home-text06 {
-  color: #ffffff;
-  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
 }
 .home-section-separator2 {
   width: 100%;
@@ -451,7 +353,7 @@ export default {
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-container3 {
+.home-container4 {
   width: 100%;
   height: 1343px;
   display: flex;
@@ -463,16 +365,16 @@ export default {
   justify-content: center;
   background-color: #000000;
 }
-.home-text15 {
+.home-text6 {
   color: #f9f9f9;
   height: 73px;
 }
-.home-image2 {
+.home-image1 {
   width: 746px;
   height: 519px;
   object-fit: cover;
 }
-.home-container4 {
+.home-container5 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -480,19 +382,10 @@ export default {
   align-items: flex-start;
   justify-content: center;
 }
-.home-image3 {
+.home-image2 {
   width: 100%;
   height: 497px;
   object-fit: cover;
-}
-.home-link4 {
-  display: contents;
-}
-.home-image4 {
-  width: 73px;
-  height: 73px;
-  object-fit: cover;
-  text-decoration: none;
 }
 .home-footer-container {
   width: 100%;
@@ -516,7 +409,7 @@ export default {
   justify-content: space-between;
   background-color: #000000;
 }
-.home-container5 {
+.home-container6 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -532,20 +425,20 @@ export default {
   border-width: 2px;
   flex-direction: row;
 }
-.home-container6 {
+.home-container7 {
   display: flex;
   position: relative;
 }
-.home-link5 {
+.home-link4 {
   display: contents;
 }
-.home-image5 {
+.home-image3 {
   width: 40px;
   height: 40px;
   object-fit: cover;
   text-decoration: none;
 }
-.home-text16 {
+.home-text7 {
   color: #ffffff;
   align-self: center;
   text-align: center;
@@ -555,7 +448,7 @@ export default {
   align-items: center;
   flex-direction: row;
 }
-.home-link6 {
+.home-link5 {
   color: #ffffff;
 }
 @media(max-width: 991px) {
@@ -575,10 +468,7 @@ export default {
   .home-heading1 {
     text-align: center;
   }
-  .home-text01 {
-    text-align: center;
-  }
-  .home-text05 {
+  .home-text3 {
     text-align: center;
   }
 }
@@ -596,14 +486,6 @@ export default {
   .home-icon {
     fill: var(--dl-color-gray-white);
   }
-  .home-cta-btn {
-    padding-left: var(--dl-space-space-fourunits);
-    padding-right: var(--dl-space-space-fourunits);
-  }
-  .home-cta-btn1 {
-    padding-left: var(--dl-space-space-fourunits);
-    padding-right: var(--dl-space-space-fourunits);
-  }
   .home-heading-container {
     width: 100%;
   }
@@ -611,32 +493,28 @@ export default {
     align-items: center;
     flex-direction: column;
   }
-  .home-card {
-    width: 70%;
-    margin-bottom: var(--dl-space-space-tripleunit);
-  }
 }
 @media(max-width: 479px) {
-  .home-button {
-    width: 116px;
-    height: 61px;
-  }
   .home-burger-menu {
     margin-left: var(--dl-space-space-doubleunit);
   }
   .home-hero-text-container {
     width: 100%;
   }
-  .home-card {
+  .home-container4 {
+    height: 760px;
+  }
+  .home-text6 {
+    height: 114px;
+    text-align: center;
+  }
+  .home-image1 {
     width: 100%;
+    height: auto;
   }
   .home-image2 {
     width: 100%;
-    height: 364px;
-  }
-  .home-image3 {
-    width: 478px;
-    height: 213px;
+    height: 100%;
   }
 }
 </style>
