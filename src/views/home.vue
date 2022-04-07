@@ -53,7 +53,7 @@
               My name is Ivan Ryan. I am a programmer, server hosting provider and
               static web designer
             </span>
-            <span><span v-html="rawauhq"></span></span>
+            <span><span v-html="rawfady"></span></span>
           </span>
           <div class="home-cta-btn-container">
             <button class="home-cta-btn anchor button">
@@ -162,7 +162,7 @@ export default {
 
   data() {
     return {
-      rawauhq: ' ',
+      rawfady: ' ',
     }
   },
 
