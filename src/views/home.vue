@@ -45,38 +45,38 @@
               My name is Ivan Ryan. I am a programmer, hosting provider and static
               web designer
             </span>
-            <span><span v-html="rawdcne"></span></span>
+            <span><span v-html="rawbygv"></span></span>
           </span>
-          <div class="home-cta-btn-container">
-            <div class="home-container3"></div>
-          </div>
+          <div class="home-cta-btn-container"></div>
         </div>
       </div>
     </div>
     <div class="home-features">
-      <div class="home-heading-container">
-        <h2 class="home-text3 section-Heading">Services</h2>
-      </div>
-      <div class="home-cards-container">
-        <h1 class="home-text4">Community Server Hosting</h1>
-        <span class="home-text5">High Performance Hardware</span>
+      <h1 class="home-text3">Projects</h1>
+      <span class="home-text4">Oden Game</span>
+      <div class="home-container3">
+        <img
+          src="https://media.discordapp.net/attachments/942084835625795624/962617945979228210/FMCxSmsaMAM_3OE.jpg?width=1202&amp;height=676"
+          alt="image"
+          class="home-image1"
+        />
       </div>
     </div>
     <div class="home-section-separator2"></div>
     <div class="home-container4">
-      <h1 class="home-text6">Custom Pterodactyl Panel Setup</h1>
+      <h1 class="home-text5">Custom Pterodactyl Panel Setup</h1>
       <img
         alt="image"
         src="https://cdn.discordapp.com/attachments/938769835763060766/960019073201242122/ezgif.com-gif-maker.gif"
         loading="lazy"
-        class="home-image1"
+        class="home-image2"
       />
       <div class="home-container5">
         <img
           alt="image"
           src="https://cdn.discordapp.com/attachments/938769835763060766/960088253757808650/IvansPanel1_2.PNG"
           loading="lazy"
-          class="home-image2"
+          class="home-image3"
         />
       </div>
     </div>
@@ -94,12 +94,12 @@
               <img
                 alt="image"
                 src="/playground_assets/download-200h.png"
-                class="home-image3"
+                class="home-image4"
               />
             </a>
           </div>
         </div>
-        <span class="home-text7">Powered on VueJS</span>
+        <span class="home-text6">Powered on VueJS</span>
         <div class="home-copyright-container">
           <span class="home-link5 anchor">Copyright, 2022</span>
         </div>
@@ -114,7 +114,7 @@ export default {
 
   data() {
     return {
-      rawdcne: ' ',
+      rawbygv: ' ',
     }
   },
 
@@ -290,12 +290,6 @@ export default {
   list-style-position: outside;
 }
 .home-cta-btn-container {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.home-container3 {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
@@ -313,37 +307,32 @@ export default {
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   padding-bottom: 43px;
+  justify-content: flex-start;
   background-color: #000000;
-}
-.home-heading-container {
-  width: 45%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-fiveunits);
-  flex-direction: column;
 }
 .home-text3 {
   color: #ffffff;
-  margin-bottom: var(--dl-space-space-fourunits);
-}
-.home-cards-container {
-  width: 100%;
-  height: 340px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
+  width: 128px;
+  height: 46px;
 }
 .home-text4 {
-  color: #f9f9f9;
-  height: 73px;
-}
-.home-text5 {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
+}
+.home-container3 {
+  width: auto;
+  height: 585px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-image1 {
+  width: 859px;
+  height: 486px;
+  align-self: center;
+  object-fit: cover;
 }
 .home-section-separator2 {
   width: 100%;
@@ -365,11 +354,11 @@ export default {
   justify-content: center;
   background-color: #000000;
 }
-.home-text6 {
+.home-text5 {
   color: #f9f9f9;
   height: 73px;
 }
-.home-image1 {
+.home-image2 {
   width: 746px;
   height: 519px;
   object-fit: cover;
@@ -382,7 +371,7 @@ export default {
   align-items: flex-start;
   justify-content: center;
 }
-.home-image2 {
+.home-image3 {
   width: 100%;
   height: 497px;
   object-fit: cover;
@@ -432,13 +421,13 @@ export default {
 .home-link4 {
   display: contents;
 }
-.home-image3 {
+.home-image4 {
   width: 40px;
   height: 40px;
   object-fit: cover;
   text-decoration: none;
 }
-.home-text7 {
+.home-text6 {
   color: #ffffff;
   align-self: center;
   text-align: center;
@@ -468,9 +457,6 @@ export default {
   .home-heading1 {
     text-align: center;
   }
-  .home-text3 {
-    text-align: center;
-  }
 }
 @media(max-width: 767px) {
   .home-navbar {
@@ -486,13 +472,6 @@ export default {
   .home-icon {
     fill: var(--dl-color-gray-white);
   }
-  .home-heading-container {
-    width: 100%;
-  }
-  .home-cards-container {
-    align-items: center;
-    flex-direction: column;
-  }
 }
 @media(max-width: 479px) {
   .home-burger-menu {
@@ -501,18 +480,23 @@ export default {
   .home-hero-text-container {
     width: 100%;
   }
+  .home-image1 {
+    flex: 0;
+    width: 472px;
+    height: 50%;
+  }
   .home-container4 {
     height: 760px;
   }
-  .home-text6 {
+  .home-text5 {
     height: 114px;
     text-align: center;
   }
-  .home-image1 {
+  .home-image2 {
     width: 100%;
     height: auto;
   }
-  .home-image2 {
+  .home-image3 {
     width: 100%;
     height: 100%;
   }
