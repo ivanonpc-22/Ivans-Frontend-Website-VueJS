@@ -20,11 +20,11 @@
       <span class="home-text004">// Example design 2022, V1.0</span>
       <span class="home-text005">
         <span class="home-text006">const</span>
-        <span class="home-text007"><span v-html="rawqxl1"></span></span>
+        <span class="home-text007"><span v-html="rawbatr"></span></span>
         <span class="home-text008">githubLink</span>
         <span class="home-text009">
           =
-          <span v-html="rawgzd3"></span>
+          <span v-html="rawbugq"></span>
         </span>
         <span class="home-text010">“</span>
         <span class="home-text011">https://github.com/ivanonpc-22</span>
@@ -311,7 +311,7 @@
             <br />
             <span>
               response:
-              <span v-html="rawks76"></span>
+              <span v-html="rawfvx1"></span>
             </span>
           </span>
           <span class="home-text101">Response</span>
@@ -334,7 +334,7 @@
             <br />
             <span>
               const tuple: [mixed, mixed, mixed, mixed]
-              <span v-html="raww0xj"></span>
+              <span v-html="rawujl8"></span>
             </span>
           </span>
           <span class="home-text117">=</span>
@@ -377,13 +377,13 @@
             <br />
             <span>
               const value:
-              <span v-html="rawwjy2"></span>
+              <span v-html="rawd0tp"></span>
             </span>
           </span>
           <span class="home-text133">T</span>
-          <span class="home-text134"><span v-html="rawn1y4"></span></span>
+          <span class="home-text134"><span v-html="rawrxkq"></span></span>
           <span class="home-text135">=</span>
-          <span class="home-text136"><span v-html="raw8giq"></span></span>
+          <span class="home-text136"><span v-html="rawhrt6"></span></span>
           <span class="home-text137">parseModel</span>
           <span class="home-text138">(chunk.</span>
           <span class="home-text139">_response</span>
@@ -397,13 +397,13 @@
           <span class="home-text146">const</span>
           <span class="home-text147">
             initializedChunk:
-            <span v-html="rawp06j"></span>
+            <span v-html="raw6tya"></span>
           </span>
           <span class="home-text148">InitializedChunk</span>
           <span class="home-text149">&lt;</span>
           <span class="home-text150">T</span>
           <span class="home-text151">&gt;</span>
-          <span class="home-text152"><span v-html="raw4x94"></span></span>
+          <span class="home-text152"><span v-html="rawfr4q"></span></span>
           <span class="home-text153">=</span>
           <span class="home-text154">
             <span>(chunk: any);</span>
@@ -418,7 +418,7 @@
           </span>
           <span class="home-text163">
             _value =
-            <span v-html="raw7pcg"></span>
+            <span v-html="rawlbmy"></span>
           </span>
           <span class="home-text164">
             <span>value;</span>
@@ -530,16 +530,16 @@
       <span class="home-text178">
         <span class="home-text179">
           Project 1
-          <span v-html="raw1shw"></span>
+          <span v-html="rawovep"></span>
         </span>
         <span class="home-text180">//</span>
-        <span class="home-text181"><span v-html="rawmlbk"></span></span>
+        <span class="home-text181"><span v-html="raw1we2"></span></span>
         <span class="home-text182">_Oden-The-Game</span>
       </span>
       <span class="home-text183">
         <span class="home-text184">
           Project 2
-          <span v-html="raw8hoo"></span>
+          <span v-html="rawgcc5"></span>
         </span>
         <span class="home-text185">//</span>
         <span class="home-text186">_</span>
@@ -548,10 +548,10 @@
       <span class="home-text188">
         <span class="home-text189">
           Project 3
-          <span v-html="rawe3a9"></span>
+          <span v-html="rawoq41"></span>
         </span>
         <span class="home-text190">//</span>
-        <span class="home-text191"><span v-html="rawjbgi"></span></span>
+        <span class="home-text191"><span v-html="rawrj7o"></span></span>
         <span class="home-text192">_SECTR-Panel</span>
       </span>
       <div class="home-card641730">
@@ -567,7 +567,7 @@
         />
         <span class="home-text193">
           Low poly Unity 3D Game
-          <span v-html="rawh53r"></span>
+          <span v-html="rawis0s"></span>
         </span>
         <div class="home-component3i64173030419">
           <span class="home-text194">view-project</span>
@@ -586,7 +586,7 @@
         />
         <span class="home-text195">
           Modified Pterodactyl Game Panel.
-          <span v-html="rawzhf9"></span>
+          <span v-html="rawxtp0"></span>
         </span>
         <div class="home-component3i64173130419">
           <span class="home-text196">view-project</span>
@@ -663,11 +663,11 @@
       />
       <span class="home-text203">
         <span class="home-text204">const</span>
-        <span class="home-text205"><span v-html="raw8r96"></span></span>
+        <span class="home-text205"><span v-html="rawljqy"></span></span>
         <span class="home-text206">button</span>
-        <span class="home-text207"><span v-html="raw8ljx"></span></span>
+        <span class="home-text207"><span v-html="rawl412"></span></span>
         <span class="home-text208">=</span>
-        <span class="home-text209"><span v-html="rawfi70"></span></span>
+        <span class="home-text209"><span v-html="rawu1hb"></span></span>
         <span class="home-text210">document</span>
         <span class="home-text211">.</span>
         <span class="home-text212">querySelector</span>
@@ -681,9 +681,9 @@
           <span></span>
         </span>
         <span class="home-text221">const</span>
-        <span class="home-text222"><span v-html="rawaquq"></span></span>
+        <span class="home-text222"><span v-html="rawyrxf"></span></span>
         <span class="home-text223">message</span>
-        <span class="home-text224"><span v-html="rawct5a"></span></span>
+        <span class="home-text224"><span v-html="raw875g"></span></span>
         <span class="home-text225">=</span>
         <span class="home-text226">
           <span>&#123;</span>
@@ -693,7 +693,7 @@
         <span class="home-text230">name</span>
         <span class="home-text231">
           :
-          <span v-html="raw3s8y"></span>
+          <span v-html="raw7sq5"></span>
         </span>
         <span class="home-text232">&quot;John Doe&quot;</span>
         <span class="home-text233">
@@ -704,7 +704,7 @@
         <span class="home-text237">email</span>
         <span class="home-text238">
           :
-          <span v-html="rawb0v2"></span>
+          <span v-html="raw8hv8"></span>
         </span>
         <span class="home-text239">&quot;&quot;</span>
         <span class="home-text240">
@@ -715,7 +715,7 @@
         <span class="home-text244">message</span>
         <span class="home-text245">
           :
-          <span v-html="rawmx6p"></span>
+          <span v-html="rawara0"></span>
         </span>
         <span class="home-text246">&quot;Test&quot;</span>
         <span class="home-text247">
@@ -723,7 +723,7 @@
           <br />
           <span>
             date:
-            <span v-html="raw46q4"></span>
+            <span v-html="rawu02b"></span>
           </span>
         </span>
         <span class="home-text251">&quot;Thu 21 Apr&quot;</span>
@@ -743,7 +743,7 @@
         <span class="home-text264">&apos;click&apos;</span>
         <span class="home-text265">
           , ()
-          <span v-html="rawsyst"></span>
+          <span v-html="rawd8wl"></span>
         </span>
         <span class="home-text266">=&gt;</span>
         <span class="home-text267">
@@ -934,6 +934,9 @@
         src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTEnIGhlaWdodD0nMTEnIHZpZXdCb3g9JzAgMCAxMSAxMScgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPHBhdGggZD0nTTQuNTEwNjIgMi40NDg3OFYzLjU1NTI3SDEuNzQ0NDJWOS42NDA5MUg3LjgzMDA3VjYuODc0NzFIOC45MzY1NVYxMC4xOTQyQzguOTM2NTUgMTAuMzQwOSA4Ljg3ODI2IDEwLjQ4MTYgOC43NzQ1MSAxMC41ODU0QzguNjcwNzYgMTAuNjg5MSA4LjUzMDA0IDEwLjc0NzQgOC4zODMzMSAxMC43NDc0SDEuMTkxMThDMS4wNDQ0NSAxMC43NDc0IDAuOTAzNzMzIDEwLjY4OTEgMC43OTk5OCAxMC41ODU0QzAuNjk2MjI3IDEwLjQ4MTYgMC42Mzc5MzkgMTAuMzQwOSAwLjYzNzkzOSAxMC4xOTQyVjMuMDAyMDNDMC42Mzc5MzkgMi44NTUzIDAuNjk2MjI3IDIuNzE0NTggMC43OTk5OCAyLjYxMDgzQzAuOTAzNzMzIDIuNTA3MDcgMS4wNDQ0NSAyLjQ0ODc4IDEuMTkxMTggMi40NDg3OEg0LjUxMDYyWk0xMC41OTYzIDAuNzg5MDYyVjUuMjE0OTlIOS40ODk3OVYyLjY3NzI3TDUuMTc4MzkgNi45ODkyM0w0LjM5NjEgNi4yMDY5NUw4LjcwNjk1IDEuODk1NTRINi4xNzAzNVYwLjc4OTA2MkgxMC41OTYzWicgZmlsbD0nIzYwN0I5NicvPgo8L3N2Zz4K"
         class="home-svg61"
       />
+      <input type="text" class="home-email input" />
+      <input type="text" class="home-textinput input" />
+      <textarea class="home-messagebox textarea"></textarea>
     </div>
   </div>
 </template>
@@ -944,33 +947,33 @@ export default {
 
   data() {
     return {
-      rawqxl1: ' ',
-      rawgzd3: ' ',
-      rawks76: ' ',
-      raww0xj: ' ',
-      rawwjy2: ' ',
-      rawn1y4: ' ',
-      raw8giq: ' ',
-      rawp06j: ' ',
-      raw4x94: ' ',
-      raw7pcg: ' ',
-      raw1shw: ' ',
-      rawmlbk: ' ',
-      raw8hoo: ' ',
-      rawe3a9: ' ',
-      rawjbgi: ' ',
-      rawh53r: ' ',
-      rawzhf9: ' ',
-      raw8r96: ' ',
-      raw8ljx: ' ',
-      rawfi70: ' ',
-      rawaquq: ' ',
-      rawct5a: ' ',
-      raw3s8y: ' ',
-      rawb0v2: ' ',
-      rawmx6p: ' ',
-      raw46q4: ' ',
-      rawsyst: ' ',
+      rawbatr: ' ',
+      rawbugq: ' ',
+      rawfvx1: ' ',
+      rawujl8: ' ',
+      rawd0tp: ' ',
+      rawrxkq: ' ',
+      rawhrt6: ' ',
+      raw6tya: ' ',
+      rawfr4q: ' ',
+      rawlbmy: ' ',
+      rawovep: ' ',
+      raw1we2: ' ',
+      rawgcc5: ' ',
+      rawoq41: ' ',
+      rawrj7o: ' ',
+      rawis0s: ' ',
+      rawxtp0: ' ',
+      rawljqy: ' ',
+      rawl412: ' ',
+      rawu1hb: ' ',
+      rawyrxf: ' ',
+      raw875g: ' ',
+      raw7sq5: ' ',
+      raw8hv8: ' ',
+      rawara0: ' ',
+      rawu02b: ' ',
+      rawd8wl: ' ',
     }
   },
 
@@ -1320,6 +1323,7 @@ export default {
   height: auto;
   margin: 0 19.23147964477539px 0 0;
   font-size: 9.925925254821777px;
+  align-self: center;
   font-style: normal;
   text-align: left;
   font-family: Fira Code;
@@ -3292,8 +3296,9 @@ export default {
   position: relative;
   max-width: 1195px;
   box-sizing: border-box;
-  align-items: flex-start;
+  align-items: center;
   border-color: transparent;
+  justify-content: center;
   background-color: rgba(1, 12, 21, 1);
 }
 .home-image23 {
@@ -4290,5 +4295,34 @@ export default {
   width: 10;
   height: 10;
   position: absolute;
+}
+.home-email {
+  top: 254px;
+  left: 317px;
+  color: #ffffff;
+  width: 16%;
+  height: 4%;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+.home-textinput {
+  top: 194px;
+  left: 317px;
+  color: #ffffff;
+  width: 16%;
+  height: 4%;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+.home-messagebox {
+  top: 317px;
+  left: 319px;
+  width: 225px;
+  height: 84px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 </style>
