@@ -20,12 +20,12 @@
     <span class="porfoliohomedesktop641227-text05">
       <span class="porfoliohomedesktop641227-text06">const</span>
       <span class="porfoliohomedesktop641227-text07">
-        <span v-html="raw4t8a"></span>
+        <span v-html="raw42jh"></span>
       </span>
       <span class="porfoliohomedesktop641227-text08">githubLink</span>
       <span class="porfoliohomedesktop641227-text09">
         =
-        <span v-html="raw4nq1"></span>
+        <span v-html="raw7fwq"></span>
       </span>
       <span class="porfoliohomedesktop641227-text10">“</span>
       <span class="porfoliohomedesktop641227-text11">
@@ -210,8 +210,8 @@ export default {
 
   data() {
     return {
-      raw4t8a: ' ',
-      raw4nq1: ' ',
+      raw42jh: ' ',
+      raw7fwq: ' ',
     }
   },
 }
